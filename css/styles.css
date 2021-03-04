@@ -125,6 +125,18 @@ a {text-decoration: none; }
   margin: 0 auto;
 }
 
+.block_txt {
+  background-color: red;
+  width: 100%;
+  max-width: 512px;
+}
+
+.block_img {
+  background-color:blue;
+  width: 100%;
+  max-width: 512px;
+}
+
 .block { height: 5000px }
 
 /* Responsive */
