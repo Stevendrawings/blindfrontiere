@@ -108,13 +108,26 @@ a {text-decoration: none; }
     margin: 0 auto;
     max-width: 1024px; }
 
-.content_slider {
+.wrapper_slider {
     display: flex;
     height: 800px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.content_slider {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto }
+
+.cell-slide {
+  position: absolute;
+  width: 100% }
 
 .block { height: 5000px }
 
