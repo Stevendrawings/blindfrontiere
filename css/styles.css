@@ -112,22 +112,18 @@ a {text-decoration: none; }
     display: flex;
     height: 800px;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center; }
 
 .content_slider {
   display: flex;
   flex-wrap: wrap;
   z-index: 2;
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto }
-
-.cell-slide {
-  position: absolute;
-  width: 100% }
+  margin: 0 auto;
+}
 
 .block { height: 5000px }
 
