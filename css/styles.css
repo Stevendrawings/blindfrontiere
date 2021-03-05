@@ -147,7 +147,8 @@ a {text-decoration: none; }
     height: 100%;
     max-width: 512px;
     /* opacity: 0; */
-    transition: transform 0.5s ease-in-out, opacity 1s linear; }
+    transition: transform 0.5s ease-in-out, opacity 1s linear; 
+}
 
 .block { height: 5000px }
 
