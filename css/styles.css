@@ -145,6 +145,7 @@ a {text-decoration: none; }
     display: flex;
     width: 100%;
     height: auto;
+    max-width: 512px;
     /* opacity: 0; */
     transition: transform 0.5s ease-in-out, opacity 1s linear; }
 
