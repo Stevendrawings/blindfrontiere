@@ -45,7 +45,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /* base */
 
 body {
@@ -100,8 +99,7 @@ a {text-decoration: none; }
 
 .logo svg { 
     width: 70px; 
-    margin:0 10px;
-}
+    margin:0 10px; }
 
 .container {
     width: 100%;
@@ -117,49 +115,44 @@ a {text-decoration: none; }
 .content_slider {
   display: flex;
   flex-wrap: wrap;
-  z-index: 2;
   position: relative;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .block_txt {
-  background-color: red;
   width: 100%;
   max-width: 492px;
-  margin: 0 10px;
-}
+  margin: 0 10px; }
 
 .block_img {
-  background-color: blue;
+  display: flex;
   width: 100%;
   max-width: 492px;
-  display: flex;
-  transform: translate(70px, -190px);
   margin: 0 10px;
+  transform: translate(70px, -190px);
   justify-content: center; }
 
+.slider_txt { display: none }
+.slider_img { opacity: 0; }
+
 .right_img_blindfrontiere {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    max-width: 512px;
-    /* opacity: 0; */
-    transition: transform 0.5s ease-in-out, opacity 1s linear; 
-}
+  display: none;
+  width: 100%;
+  height: 100%;
+  max-width: 512px;
+  transition: transform 0.5s ease-in-out, opacity 1s linear; }
+
+.cell-slide { position: absolute; }
 
 .block { height: 5000px }
-
-.cell-slide { position: absolute;  }
 
 /* Responsive */
 
 @media screen and (max-width: 1440px){ 
   /* Laptop L */
     .block_img {
-      background-color: blue;
       width: 100%;
       max-width: 360px;
       display: flex;
@@ -169,12 +162,10 @@ a {text-decoration: none; }
   }
 
   .block_txt {
-    background-color: red;
     width: 100%;
     max-width: 492px;
     margin: 0 10px;
   }
-
 }
 
 @media screen and (max-width: 1024px){ 
@@ -187,12 +178,11 @@ a {text-decoration: none; }
     justify-content: space-evenly;
     width: 100%;
     margin: 0 auto;
-}
+  }
 }
 
 @media screen and (max-width: 932px){ 
   .block_img {
-      background-color: blue;
       width: 100%;
       max-width: 360px;
       display: flex;
@@ -200,8 +190,8 @@ a {text-decoration: none; }
       transform: translate(0px, 0px);
       justify-content: center;
   }
+
   .block_txt {
-    background-color: red;
     width: 100%;
     max-width: 562px;
     margin: 0 10px;
@@ -285,8 +275,7 @@ a {text-decoration: none; }
     height: 300px;
     right: 0;
     left: 0;
-    top: 120px;
-}
+    top: 120px; }
   
   .navbar-collapse ul li {
     color:#000;
