@@ -75,6 +75,8 @@ nav ul li {
 
 a {text-decoration: none; }
 
+strong {font-weight: 700;}
+
 /* layout */
 
 .blindfrontiere_fond { 
@@ -145,6 +147,39 @@ a {text-decoration: none; }
   transition: transform 0.5s ease-in-out, opacity 1s linear; }
 
 .cell-slide { position: absolute; }
+
+.decors { 
+  background-image: url(../img/stylewhiteblindfrontiere.svg);
+  background-size: cover;
+  background-position: -720px -210px;
+  background-repeat: no-repeat;
+  height: 170px;
+  position: absolute;
+  bottom: -174px;
+  z-index: 0;
+  width: 100%; }
+
+.decors2 {
+  background-image: url(../img/totemfuturiste.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: -84px -30px;
+  height: 310px;
+  position: relative;
+  top: 0px; }
+
+.wrapper-content { width: 100%; margin-top : 130px }
+
+.resume_left { max-width: 500px; }
+
+.vaisseau_right {
+  z-index: 1;
+  position: relative;
+  top: -50px;
+  width: 100%;
+  transform: translateX(127%);
+  max-width: 570px;
+}
 
 .block { height: 5000px }
 
