@@ -21,7 +21,7 @@ if ($('#scrollbot').length > 0) {
      window.requestAnimationFrame(function(){ 
   
       if(scroll_top === 0) {
-
+        $('.menu nav li a').css({ color: "#fff" })
         $("#scrollbot")
             .css({ 
               transition: 'ease-out .2s',
@@ -39,6 +39,7 @@ if ($('#scrollbot').length > 0) {
       } else if(scroll_top > 226){
 
         if(scroll_top < last_scroll_top) {
+          $('.menu nav li a').css({ color: "#000" })
           $('.hamburgergold span').css({ background: "#000"})
          $("#scrollbot")
             .css({
