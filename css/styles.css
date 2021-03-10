@@ -170,15 +170,16 @@ strong {font-weight: 700;}
 
   .right_imageblock {
     background-image: url(../img/rightcircle.png);
-    background-size: cover;
-    background-position: 110px -10px;
+    background-size: contain;
+    background-position: 10px 0px;
     background-repeat: no-repeat;
     height: 750px;
-    width: 80%;
-    top: -510px;
-    right: -453px;
+    width: 100%;
+    top: -400px;
+    right: -452px;
     position: relative;
-}
+    min-height: 500px;
+  }
 
 .wrapper-content { 
   width: 100%;
@@ -205,7 +206,7 @@ strong {font-weight: 700;}
   text-align: right;
   position: relative;
   top: -770px;
-  right: -640px;
+  right: -580px;
 }
 
 .bottom_txt_blindfrontiere {
@@ -262,16 +263,15 @@ strong {font-weight: 700;}
 
 .left_imageblock {
   background-image: url(../img/leftcircle.png);
-  background-size: cover;
-  background-position: 0px 10px;
+  background-size: contain;
+  background-position: -10px 0px;
   background-repeat: no-repeat;
   height: 750px;
-  width: 90%;
-  top: 0px;
-  right: 637px;
-  /* padding: 70px; */
+  width: 100%;
+  top: -70px;
+  right: 358px;
   position: relative;
-}
+  min-height: 500px; }
 
 /* Responsive */
 
