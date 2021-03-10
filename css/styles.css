@@ -129,12 +129,13 @@ strong {font-weight: 700;}
   margin: 0 10px; }
 
 .block_img {
-  display: flex;
+  /* display: flex; */
   width: 100%;
   max-width: 492px;
   margin: 0 10px;
   transform: translate(70px, -190px);
-  justify-content: center; }
+  /* justify-content: center;  */
+}
 
 .slider_txt { display: none }
 .slider_img { opacity: 0; }
