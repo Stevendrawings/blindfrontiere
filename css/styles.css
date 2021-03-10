@@ -185,6 +185,7 @@ strong {font-weight: 700;}
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,194,95,1) 100%);
   margin-top: 130px; }
 
 .resume_left { max-width: 500px; }
@@ -239,7 +240,7 @@ strong {font-weight: 700;}
 }
 
 .img_fuseeblindfrontiere {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   display: block;
   position: relative;
@@ -249,9 +250,9 @@ strong {font-weight: 700;}
 
 .vaisseau_left {
   position: relative;
-  right: 0px;
-  max-width: 760px;
-  top: -40px;
+  right: -80px;
+  max-width: 600px;
+  top: -920px;
 }
 
 .leftvaisseau {
@@ -311,9 +312,43 @@ strong {font-weight: 700;}
     width: 100%;
     transform: translateX(575px);
     max-width: 450px;
-}
-}
+  }
+  .right_imageblock {
+    background-image: url(../img/rightcircle.png);
+    background-size: contain;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    top: -400px;
+    right: -182px;
+    position: relative;
+    min-height: 500px;
+  }
 
+  .left_imageblock {
+    background-image: url(../img/leftcircle.png);
+    background-size: contain;
+    background-position: -10px 0px;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    top: -70px;
+    right: 168px;
+    position: relative;
+    min-height: 500px;
+  }
+  .right_block_txt {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    position: relative;
+    top: -800px;
+    right: -360px;
+}
+}
 
 @media screen and (max-width: 932px){ 
   .block_img {
