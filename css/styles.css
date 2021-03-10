@@ -171,12 +171,12 @@ strong {font-weight: 700;}
   .right_imageblock {
     background-image: url(../img/rightcircle.png);
     background-size: cover;
-    background-position: 140px -10px;
+    background-position: 110px -10px;
     background-repeat: no-repeat;
-    height: 730px;
+    height: 750px;
     width: 80%;
     top: -510px;
-    right: -412px;
+    right: -453px;
     position: relative;
 }
 
@@ -191,10 +191,22 @@ strong {font-weight: 700;}
 .vaisseau_right {
   z-index: 1;
   position: relative;
-  top: -50px;
+  top: -40px;
   width: 100%;
-  transform: translateX(702px);
-  max-width: 480px; }
+  transform: translateX(822px);
+  max-width: 450px;
+}
+
+.right_block_txt {
+  width: 100%;
+  max-width: 330px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  position: relative;
+  top: -770px;
+  right: -640px;
+}
 
 .bottom_txt_blindfrontiere {
   top: 460px;
@@ -203,7 +215,7 @@ strong {font-weight: 700;}
   max-width: 410px;
   left: 230px; }
 
-.block { height: 5000px }
+.block { height: auto }
 
 .slider_txt {
   display: none;
@@ -213,8 +225,53 @@ strong {font-weight: 700;}
   position: relative; }
 
 .right_vaisseau_txt {
-    position: relative;
-    transform: translateY(-810px); }
+  position: relative;
+  transform: translateY(-730px);
+  text-align: right;
+  max-width: 320px;
+  right: -690px; }
+
+.left_picture {
+  position: relative;
+  max-width: 450px;
+  top: 5px;
+}
+
+.img_fuseeblindfrontiere {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -860px;
+  z-index: 1;
+}
+
+.vaisseau_left {
+  position: relative;
+  right: 0px;
+  max-width: 760px;
+  top: -40px;
+}
+
+.leftvaisseau {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  top: -760px;
+}
+
+.left_imageblock {
+  background-image: url(../img/leftcircle.png);
+  background-size: cover;
+  background-position: 0px 10px;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 90%;
+  top: 0px;
+  right: 637px;
+  /* padding: 70px; */
+  position: relative;
+}
 
 /* Responsive */
 
@@ -233,6 +290,7 @@ strong {font-weight: 700;}
     max-width: 492px;
     margin: 0 10px;
   }
+
 }
 
 @media screen and (max-width: 1024px){ 
@@ -246,7 +304,16 @@ strong {font-weight: 700;}
     width: 100%;
     margin: 0 auto;
   }
+  .vaisseau_right {
+    z-index: 1;
+    position: relative;
+    top: -70px;
+    width: 100%;
+    transform: translateX(575px);
+    max-width: 450px;
 }
+}
+
 
 @media screen and (max-width: 932px){ 
   .block_img {
