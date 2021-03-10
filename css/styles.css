@@ -250,9 +250,9 @@ strong {font-weight: 700;}
 
 .vaisseau_left {
   position: relative;
-  right: -80px;
+  right: -200px;
   max-width: 600px;
-  top: -920px;
+  top: -840px;
 }
 
 .leftvaisseau {
@@ -273,6 +273,14 @@ strong {font-weight: 700;}
   right: 358px;
   position: relative;
   min-height: 500px; }
+
+.content_team {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
 
 /* Responsive */
 
@@ -347,7 +355,36 @@ strong {font-weight: 700;}
     position: relative;
     top: -800px;
     right: -360px;
-}
+  }
+
+  .vaisseau_left {
+    position: relative;
+    right: -120px;
+    max-width: 600px;
+    top: -600px;
+  }
+
+    .img_fuseeblindfrontiere {
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+      position: relative;
+      top: -730px;
+      z-index: 1;
+  }
+
+    .left_imageblock {
+      background-image: url(../img/leftcircle.png);
+      background-size: contain;
+      background-position: -10px 0px;
+      background-repeat: no-repeat;
+      height: 750px;
+      width: 100%;
+      top: 190px;
+      right: 168px;
+      position: relative;
+      min-height: 500px;
+  }
 }
 
 @media screen and (max-width: 932px){ 
@@ -454,7 +491,10 @@ strong {font-weight: 700;}
   
   .navbar-collapse ul li a{ color:#000; }
   
-  .navbar-active { display: flex; }
+  .navbar-active {     
+    display: flex;
+    position: absolute;
+    z-index: 5;}
   
   .menu li { display:none; }
   
