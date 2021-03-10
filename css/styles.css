@@ -129,12 +129,10 @@ strong {font-weight: 700;}
   margin: 0 10px; }
 
 .block_img {
-  /* display: flex; */
   width: 100%;
   max-width: 492px;
   margin: 0 10px;
   transform: translate(70px, -190px);
-  /* justify-content: center;  */
 }
 
 .slider_txt { display: none }
@@ -392,10 +390,8 @@ strong {font-weight: 700;}
   .block_img {
       width: 100%;
       max-width: 360px;
-      display: flex;
       margin: 0 -5px;
       transform: translate(0px, 0px);
-      justify-content: center;
   }
 
   .block_txt {
