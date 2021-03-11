@@ -755,6 +755,16 @@ strong {font-weight: 700;}
     max-width: 390px;
     top: -370px;
 }
+.right_block_txt {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  position: relative;
+  top: -510px;
+  right: 0px;
+}
 }
 
 @media screen and (max-width: 375px) {
