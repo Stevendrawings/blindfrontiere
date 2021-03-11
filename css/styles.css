@@ -281,6 +281,12 @@ strong {font-weight: 700;}
   column-gap: 10px;
 }
 
+.title_team {
+  margin-top: -440px;
+  text-align: center;
+  padding: 50px 0;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1440px){ 
@@ -357,10 +363,10 @@ strong {font-weight: 700;}
   }
 
   .vaisseau_left {
-    position: relative;
-    right: -120px;
-    max-width: 600px;
-    top: -600px;
+      position: relative;
+      right: -250px;
+      max-width: 600px;
+      top: -600px;
   }
 
     .img_fuseeblindfrontiere {
@@ -379,7 +385,7 @@ strong {font-weight: 700;}
       background-repeat: no-repeat;
       height: 750px;
       width: 100%;
-      top: 190px;
+      top: 10px;
       right: 168px;
       position: relative;
       min-height: 500px;
@@ -504,6 +510,33 @@ strong {font-weight: 700;}
     margin-top: 20px;
     max-width:300px;
   }
+
+  .vaisseau_left {
+    position: relative;
+    right: -100px;
+    max-width: 600px;
+    top: -600px;
+}
+
+.right_block_txt {
+  width: 100%;
+  max-width: 330px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  position: relative;
+  top: -710px;
+  right: -300px;
+}
+
+.vaisseau_right {
+  z-index: 1;
+  position: relative;
+  top: 10px;
+  width: 100%;
+  transform: translateX(325px);
+  max-width: 450px;
+}
 
 }
 
