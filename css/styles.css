@@ -390,6 +390,14 @@ strong {font-weight: 700;}
       position: relative;
       min-height: 500px;
   }
+
+    .content_team {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 10px;
+  }
 }
 
 @media screen and (max-width: 932px){ 
@@ -536,6 +544,14 @@ strong {font-weight: 700;}
   width: 100%;
   transform: translateX(325px);
   max-width: 450px;
+}
+
+.content_team {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
 }
 
 }
