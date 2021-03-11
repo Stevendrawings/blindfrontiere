@@ -615,7 +615,10 @@ footer {
   column-gap: 10px;
 }
 
+.navbar-collapse ul.menu-collapse li { display: block; color: #000; }
+
 }
+
 @media screen and (max-width: 701px){
 
   .right_block_txt {
