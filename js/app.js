@@ -26,7 +26,7 @@ if ($('#scrollbot').length > 0) {
             .css({ 
               transition: 'ease-out .2s',
               position : "absolute",
-              padding: "20px 0 20px 0",
+              padding: "35px 0 35px 0",
               background: "transparent",
               top: '0',
               boxShadow: '0 4px 10px -10px rgba(0,0,0,0)' 
