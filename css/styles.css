@@ -146,6 +146,10 @@ footer {
   transform: translate(70px, -190px);
 }
 
+.menu nav ul li a {
+  color: #fff;
+}
+
 .slider_txt { display: none }
 .slider_img { opacity: 0; }
 
@@ -161,7 +165,7 @@ footer {
 .decors { 
   background-image: url(../img/stylewhiteblindfrontiere.svg);
   background-size: cover;
-  background-position: -720px -210px;
+  background-position: -720px -165px;
   background-repeat: no-repeat;
   height: 170px;
   position: absolute;
@@ -326,6 +330,24 @@ footer {
   text-align: center;
 }
 
+.liste-jeux {
+  display: flex;
+  justify-content: space-between;
+  background-color: #124674; 
+  padding:6px; 
+  font-size: 12px;
+  color: #64b2f7; }
+
+.menu-jeux ul li{
+  margin-right: 15px;
+  display: inline-block; }
+  
+.reseaux_sociaux ul li {
+  margin: 0 5px 0 5px;
+  display: inline-block }
+
+.wrapper_list_jeux { background-color: #124674; }
+   
 /* Responsive */
 
 @media screen and (max-width: 1440px){ 
